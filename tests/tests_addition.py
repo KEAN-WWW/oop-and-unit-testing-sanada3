@@ -1,3 +1,6 @@
+import pytest
+
+
 def test_addition():
     from app.calculator import add
     # Test positive numbers

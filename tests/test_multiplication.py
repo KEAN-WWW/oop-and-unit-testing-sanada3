@@ -1,3 +1,5 @@
+import pytest
+
 def test_multiplication():
     from app.calculator import multiply
     # Test positive numbers
