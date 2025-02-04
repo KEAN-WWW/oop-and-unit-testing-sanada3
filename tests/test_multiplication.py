@@ -1,10 +1,10 @@
-import pytest
+"""this is a starting test file"""
 
+from app.calculator import multiply
 def test_multiplication():
-    from app.calculator import multiply
-    # Test positive numbers
+    """Test positive numbers"""
     assert multiply(2, 3) == 6
-    # Test negative with positive
+    #Test negative with positive
     assert multiply(-2, 3) == -6
-    # Test with zero
+    #Test with zero
     assert multiply(5, 0) == 0

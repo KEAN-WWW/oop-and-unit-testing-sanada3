@@ -1,8 +1,9 @@
-import pytest
+"""this is a starting test file"""
 
+from app.calculator import add
 
 def test_addition():
-    from app.calculator import add
+    """add two numbers"""
     # Test positive numbers
     assert add(2, 3) == 5
     # Test negative numbers

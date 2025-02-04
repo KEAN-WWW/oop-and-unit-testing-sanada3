@@ -1,6 +1,9 @@
-import pytest
+"""file for subtraction"""
+
+from app.calculator import subtract
 def test_subtraction():
-    from app.calculator import subtract
+    """subtract two numbers"""
+
     # Test positive numbers
     assert subtract(5, 3) == 2
     # Test negative numbers
